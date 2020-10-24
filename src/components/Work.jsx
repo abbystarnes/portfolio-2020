@@ -1,21 +1,17 @@
 import React from 'react';
+import { InnerContainer } from './styles';
 
-function Home() {
+function Work() {
   return (
-    <div>
-      <header>
-        This is my worke page!
-      </header>
-
-      <main>
-        work
-      </main>
-
-      <footer>
-        Your copyright message
-      </footer>
-    </div>
+    <main style={{ 'background-color': 'rgba(19, 19, 19, .07)' }}>
+      <InnerContainer>
+        <div>
+          <h2>Budgie</h2>
+          <p>A Receipt Scanning &amp;  Expense Tracking Application</p>
+        </div>
+      </InnerContainer>
+    </main>
   );
 }
 
-export default Home;
+export default Work;

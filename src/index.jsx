@@ -4,10 +4,7 @@ import ReactDOM from 'react-dom';
 // Your routes.js file
 import App from './routes';
 
-
 ReactDOM.render(
- <App />,
-  document.getElementById('root')
+  <App style={{ backgroundColor: 'rgba(9,9,9,.07)' }} />,
+  document.getElementById('root'),
 );
-
-

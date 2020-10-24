@@ -12,25 +12,12 @@ const theme = createMuiTheme({
     h2: {
       fontSize: 24,
       fontWeight: 700,
-      color: '#131313',
+      color: '#fff',
     },
     p: {
       fontSize: 16,
     },
-    a: {
-      fontSize: 16,
-      fontWeight: 700,
-      color: '#4F689C',
-    },
   },
 });
-
-// const theme = {
-//   colors: {
-//     neutral: 'rgba(19, 19, 19, 7)',
-//     dark: '#131313',
-//     accent: '#4F689C',
-//   },
-// };
 
 export default theme;
