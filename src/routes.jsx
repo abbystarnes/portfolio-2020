@@ -14,6 +14,8 @@ import theme from './theme';
 import Home from './components/Home';
 import Work from './components/Work';
 import About from './components/About';
+import Shelter from './components/Shelter';
+import Budgie from './components/Budgie';
 
 /**
  * All routes go here.
@@ -24,7 +26,6 @@ export default function App() {
     <CssBaseline>
       <ThemeProvider theme={theme}>
         <Router>
-          <Box>
             <StyledAppBar style={{ backgroundColor: '#222' }}>
               <Container className="appbar-container">
                 <a href="/">Home</a>
@@ -38,11 +39,17 @@ export default function App() {
               <Route exact path="/">
                 <Home />
               </Route>
-              <Route path="/work">
+              <Route exact path="/work">
                 <Work />
               </Route>
               <Route path="/about">
                 <About />
+              </Route>
+              <Route path="/work/budgie">
+                <Budgie />
+              </Route>
+              <Route path="/work/shelter">
+                <Shelter />
               </Route>
             </Switch>
             <Footer>
@@ -61,7 +68,6 @@ export default function App() {
                 </ul>
               </Container>
             </Footer>
-          </Box>
         </Router>
       </ThemeProvider>
     </CssBaseline>

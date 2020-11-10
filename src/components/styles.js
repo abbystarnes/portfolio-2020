@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { AppBar } from '@material-ui/core';
-import hero from './images/hero.jpg';
+import hero from './img/hero.jpg';
 
 export const DecorativeTitle = styled.h1`
   font-family: "Lobster";
@@ -93,7 +93,24 @@ export const Footer = styled.footer`
 `;
 
 export const InnerContainer = styled.div`
-margin: 0 auto;
+  margin: 0 auto;
   margin-top: 80px;
   max-width; 660px;
+`;
+
+
+export const WorkSection = styled.div`
+  margin-bottom: 1em;
+   h2 {
+    color: #4F689C;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 14px;
+   }
+   a {
+    &:hover {
+      opacity: .8;
+    }
+   }
+
 `;
