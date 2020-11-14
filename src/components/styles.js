@@ -8,6 +8,9 @@ export const DecorativeTitle = styled.h1`
   font-size: 60px;
   color: #fff;
   margin-bottom: 0;
+  @media (min-width: 768px) {
+    font-size: 84px;
+  }
 `;
 
 export const Hero = styled.div`
@@ -23,6 +26,10 @@ export const HeroText = styled.header`
   padding-top: 5vh;
   max-width: 225px;
   margin: 0 auto;
+  @media (min-width: 768px) {
+    margin: 0;
+    padding-top: 15vh;
+  }
 `;
 
 export const StyledAppBar = styled(AppBar)`
@@ -31,6 +38,9 @@ export const StyledAppBar = styled(AppBar)`
     flex-direction: row;
     padding: 10px 0;
     justify-content: space-around;
+    @media (min-width: 768px) {
+      justify-content: flex-end;
+    }
   }
   a {
     margin: 0 20px;
@@ -108,9 +118,32 @@ export const WorkSection = styled.div`
     margin-bottom: 14px;
    }
    a {
-    &:hover {
+     text-decoration: none;
+     &:visited, &:active, &:focus {
       opacity: .8;
     }
    }
+`;
 
+export const ProjectContainer = styled.div`
+  margin-bottom: 1em;
+  max-width: 600px;
+  margin: 0 auto;
+   h2 {
+    color: #4F689C;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 14px;
+   }
+   h3 {
+     font-size: 24px;
+     font-weight: bold;
+   }
+   a {
+     text-decoration: none;
+     &:visited, &:active, &:focus {
+      opacity: .8;
+    }
+   }
+   padding-bottom: 2em;
 `;

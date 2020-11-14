@@ -1,5 +1,5 @@
 import React from 'react';
-import { InnerContainer} from './styles';
+import { InnerContainer, ProjectContainer} from './styles';
 import { Container } from '@material-ui/core';
 
 function Budgie() {
@@ -8,6 +8,7 @@ function Budgie() {
         <main>
         <Container>
         <InnerContainer>
+            <ProjectContainer>
             <h2>Budgie</h2>
             <p className="subtitle">A Receipt Scanning &amp; Expense Tracking Application</p>
             <article className="project">
@@ -97,6 +98,7 @@ function Budgie() {
                 <p className="text">On the server side, the base64 image is uploaded and written to a temporary PNG file. The image is then preprocessed with <a href="http://www.fmwconcepts.com/imagemagick/textcleaner/">an ImageMagick script</a> to increase accuracy, and
             the resulting TIF file is processed using Tesseract OCR. This returns a string of text, which is then parsed into receipt items and prices using a regular expression. The resulting lines are returned to the front-end as JSON.</p>
             </article>
+            </ProjectContainer>
         </InnerContainer>
         </Container>
     </main>

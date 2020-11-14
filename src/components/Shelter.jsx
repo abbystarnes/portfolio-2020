@@ -1,5 +1,5 @@
 import React from 'react';
-import { InnerContainer} from './styles';
+import { InnerContainer, ProjectContainer} from './styles';
 import { Container } from '@material-ui/core';
 
 
@@ -8,6 +8,7 @@ function Shelter() {
     <main>
     <Container>
     <InnerContainer>
+    <ProjectContainer>
 <h2>Shelter</h2>
             <p className="subtitle">A CRUD Application Built with Petfinder's API</p>
 
@@ -59,6 +60,7 @@ function Shelter() {
                     the user's permission level and email. The /login_local route checks the user's password against the stored hashed password associated with their email. If the password or email is invalid, the post request resolves with a 404 and
                     the user sees an error message. Otherwise, once their credentials are validated the user is rerouted to the pets page.</p>
             </article>
+            </ProjectContainer>
       </InnerContainer>
         </Container>
     </main>
