@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb130e87d19baf94814683baa9f82968",
+    "revision": "d419297331fe49e4a007fbad5fa30437",
     "url": "https://abbystarnes.com/index.html"
   },
   {
-    "revision": "d9459f88ce7e735822bf",
+    "revision": "e7a3cd12e367dc6c79c6",
     "url": "https://abbystarnes.com/static/css/main.b9aa8a40.chunk.css"
   },
   {
-    "revision": "adb2bba4ad87753050eb",
-    "url": "https://abbystarnes.com/static/js/2.749caf27.chunk.js"
+    "revision": "41f4b2f5931ff9f68962",
+    "url": "https://abbystarnes.com/static/js/2.3e53c2a6.chunk.js"
   },
   {
     "revision": "6397acf4c5cafcd591a770ce33fc3e2f",
-    "url": "https://abbystarnes.com/static/js/2.749caf27.chunk.js.LICENSE.txt"
+    "url": "https://abbystarnes.com/static/js/2.3e53c2a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9459f88ce7e735822bf",
-    "url": "https://abbystarnes.com/static/js/main.1cfe0f03.chunk.js"
+    "revision": "e7a3cd12e367dc6c79c6",
+    "url": "https://abbystarnes.com/static/js/main.12a5b6f0.chunk.js"
   },
   {
     "revision": "27943cb4682ea9f93b8a",
