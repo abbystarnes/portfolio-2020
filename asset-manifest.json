@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/abbystarnes.com/static/css/main.b9aa8a40.chunk.css",
-    "main.js": "/abbystarnes.com/static/js/main.72fd815e.chunk.js",
-    "main.js.map": "/abbystarnes.com/static/js/main.72fd815e.chunk.js.map",
-    "runtime-main.js": "/abbystarnes.com/static/js/runtime-main.f69e7e2a.js",
-    "runtime-main.js.map": "/abbystarnes.com/static/js/runtime-main.f69e7e2a.js.map",
-    "static/js/2.abd9ea04.chunk.js": "/abbystarnes.com/static/js/2.abd9ea04.chunk.js",
-    "static/js/2.abd9ea04.chunk.js.map": "/abbystarnes.com/static/js/2.abd9ea04.chunk.js.map",
-    "index.html": "/abbystarnes.com/index.html",
-    "precache-manifest.bdcf00288219065fb6f4d27f6e4da2fa.js": "/abbystarnes.com/precache-manifest.bdcf00288219065fb6f4d27f6e4da2fa.js",
-    "service-worker.js": "/abbystarnes.com/service-worker.js",
-    "static/css/main.b9aa8a40.chunk.css.map": "/abbystarnes.com/static/css/main.b9aa8a40.chunk.css.map",
-    "static/js/2.abd9ea04.chunk.js.LICENSE.txt": "/abbystarnes.com/static/js/2.abd9ea04.chunk.js.LICENSE.txt",
-    "static/media/hero.jpg": "/abbystarnes.com/static/media/hero.93b2c9d1.jpg"
+    "main.css": "/portfolio-2020/static/css/main.b9aa8a40.chunk.css",
+    "main.js": "/portfolio-2020/static/js/main.91db574a.chunk.js",
+    "main.js.map": "/portfolio-2020/static/js/main.91db574a.chunk.js.map",
+    "runtime-main.js": "/portfolio-2020/static/js/runtime-main.9007be83.js",
+    "runtime-main.js.map": "/portfolio-2020/static/js/runtime-main.9007be83.js.map",
+    "static/js/2.95fb2dab.chunk.js": "/portfolio-2020/static/js/2.95fb2dab.chunk.js",
+    "static/js/2.95fb2dab.chunk.js.map": "/portfolio-2020/static/js/2.95fb2dab.chunk.js.map",
+    "index.html": "/portfolio-2020/index.html",
+    "precache-manifest.49d5a94aafdd7da48557cb0936f094ad.js": "/portfolio-2020/precache-manifest.49d5a94aafdd7da48557cb0936f094ad.js",
+    "service-worker.js": "/portfolio-2020/service-worker.js",
+    "static/css/main.b9aa8a40.chunk.css.map": "/portfolio-2020/static/css/main.b9aa8a40.chunk.css.map",
+    "static/js/2.95fb2dab.chunk.js.LICENSE.txt": "/portfolio-2020/static/js/2.95fb2dab.chunk.js.LICENSE.txt",
+    "static/media/hero.jpg": "/portfolio-2020/static/media/hero.93b2c9d1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f69e7e2a.js",
-    "static/js/2.abd9ea04.chunk.js",
+    "static/js/runtime-main.9007be83.js",
+    "static/js/2.95fb2dab.chunk.js",
     "static/css/main.b9aa8a40.chunk.css",
-    "static/js/main.72fd815e.chunk.js"
+    "static/js/main.91db574a.chunk.js"
   ]
 }
