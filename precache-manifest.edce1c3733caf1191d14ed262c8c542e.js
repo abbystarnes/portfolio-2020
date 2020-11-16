@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44b95a6b4500fc5ce7389ea11ebdcf9b",
+    "revision": "892f75b5c39853cfff0ada608849e072",
     "url": "https://abbystarnes.github.io/portfolio-2020/index.html"
   },
   {
-    "revision": "cfc6ef4b77f568e69fdf",
+    "revision": "9a6b77f7683e3fa49520",
     "url": "https://abbystarnes.github.io/portfolio-2020/static/css/main.b9aa8a40.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://abbystarnes.github.io/portfolio-2020/static/js/2.9a9a0f69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cfc6ef4b77f568e69fdf",
-    "url": "https://abbystarnes.github.io/portfolio-2020/static/js/main.c2bd4a32.chunk.js"
+    "revision": "9a6b77f7683e3fa49520",
+    "url": "https://abbystarnes.github.io/portfolio-2020/static/js/main.c57ff366.chunk.js"
   },
   {
     "revision": "14fd20d229d3c0d1b055",
