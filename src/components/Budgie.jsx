@@ -1,4 +1,5 @@
 import React from 'react';
+import Gist from 'react-gist';
 import { InnerContainer, ProjectContainer} from './styles';
 import { Container } from '@material-ui/core';
 
@@ -14,7 +15,7 @@ function Budgie() {
             <article className="project">
                 <h3>Technologies</h3>
                 <ul className='tech-list'>
-                    <li><img className='tech' src={ process.env.PUBLIC_URL + '/img/angularjs.png' } alt="" />
+                    <li><img className='tech' src={ process.env.PUBLIC_URL + '/img/technologies/angularjs.png' } alt="" />
                         <p>Angular 1.6</p>
                     </li>
                     <li><img className='tech' src={ process.env.PUBLIC_URL + '/img/technologies/cordova.png' } alt="" />
@@ -90,11 +91,11 @@ function Budgie() {
                         <p className="caption">Receipt entry is autopopulated with items and prices from selected photo.</p>
                     </div>
                 </div>
-                <script src="https://gist.github.com/abbystarnes/d0e57b2f39d9325e46fbfc43e6e38f6b.js"></script>
+                <Gist id="d0e57b2f39d9325e46fbfc43e6e38f6b"/>
                 <p className="text">The controller's takePicture() function requests access to mobile device's camera and returns selected image in base64 format. The image is then processed server-side, returning a list of receipt items and prices detected by Tesseract
                 OCR.
         </p>
-                <script src="https://gist.github.com/abbystarnes/2c0debcfdf0f46c8ba64756cfe12b679.js"></script>
+                <Gist id="2c0debcfdf0f46c8ba64756cfe12b679"/>
                 <p className="text">On the server side, the base64 image is uploaded and written to a temporary PNG file. The image is then preprocessed with <a href="http://www.fmwconcepts.com/imagemagick/textcleaner/">an ImageMagick script</a> to increase accuracy, and
             the resulting TIF file is processed using Tesseract OCR. This returns a string of text, which is then parsed into receipt items and prices using a regular expression. The resulting lines are returned to the front-end as JSON.</p>
             </article>

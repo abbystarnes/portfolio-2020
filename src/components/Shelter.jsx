@@ -1,7 +1,7 @@
 import React from 'react';
+import Gist from 'react-gist';
 import { InnerContainer, ProjectContainer} from './styles';
 import { Container } from '@material-ui/core';
-
 
 function Shelter() {
   return (
@@ -46,16 +46,16 @@ function Shelter() {
 
             <article className="project">
                 <h3>User Authentication</h3>
-                <script src="https://gist.github.com/abbystarnes/b2ca902a127f276eff6788f6bf8a4fc2.js"></script>
+                <Gist id="b2ca902a127f276eff6788f6bf8a4fc2"/>
                 <p className="text">If user logs in with Gmail, an external dialogue opens and allows the user to login to their Gmail account. Upon successful login, the users information is passed to the front-end javascript file's onSignIn() function (below) for processing.
                     Afterwards, whenever the user is logged in to their Gmail account, they have frictionless access to their account. If the user chooses to log in using their email and password, the form information is submitted to the /login_local
                     route (below) for processing via a post request.
                 </p>
-                <script src="https://gist.github.com/abbystarnes/a79277451c341d9ad8339cb7d216111e.js"></script>
+                <Gist id="a79277451c341d9ad8339cb7d216111e"/>
                 <p className="text">In the front-end Javascript, onSignIn() takes the user's Gmail account information and passes their email and id token to the /login_gmail route via a post XMLHttpRequest. The getCookie() function parses the current cookie to obtain the
                     user's authentication information.
                 </p>
-                <script src="https://gist.github.com/abbystarnes/e7b9440fb2e594610b3c340e2aa135fa.js"></script>
+                <Gist id="https://gist.github.com/abbystarnes/e7b9440fb2e594610b3c340e2aa135fa.js"/>
                 <p className="text">The /logout route empties the user's cookies, which logs them out and prevents protected elements from rendering to the page. The /login_gmail route validate's the user's id token. If the user's credentials are valid, a cookie is set with
                     the user's permission level and email. The /login_local route checks the user's password against the stored hashed password associated with their email. If the password or email is invalid, the post request resolves with a 404 and
                     the user sees an error message. Otherwise, once their credentials are validated the user is rerouted to the pets page.</p>
