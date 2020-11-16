@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84f7412e14bf3be3ed73eb35764f6262",
+    "revision": "1a6bb8f1153dfe90ae29dbfacd78d4a7",
     "url": "https://abbystarnes.com/index.html"
   },
   {
-    "revision": "795d87cd6e30c20e008a",
+    "revision": "546be2ba39d7d3a8eceb",
     "url": "https://abbystarnes.com/static/css/main.b9aa8a40.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://abbystarnes.com/static/js/2.23d50e77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "795d87cd6e30c20e008a",
-    "url": "https://abbystarnes.com/static/js/main.015b1697.chunk.js"
+    "revision": "546be2ba39d7d3a8eceb",
+    "url": "https://abbystarnes.com/static/js/main.cbf951c4.chunk.js"
   },
   {
     "revision": "27943cb4682ea9f93b8a",
